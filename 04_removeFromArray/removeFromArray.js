@@ -11,5 +11,6 @@ const removeFromArray = function (arr) {
 	return result;
 };
 
+/* solution used array.forEach((item)=> .... ) to do what I did. */
 // Do not edit below this line
 module.exports = removeFromArray;

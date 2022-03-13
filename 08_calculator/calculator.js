@@ -7,6 +7,12 @@ const subtract = function (a, b) {
 };
 
 // This function accepts an array called arr
+/*
+ * The solution branch uses arr.reduce((total, current)=> total + current, 0)
+ * this is a recursive function where total will hold the total sum at each
+ * element of the array, current will hold the value of the current value, and
+ * 0 is the initial value
+ */
 const sum = function (arr) {
 	let result = 0;
 	for (let i = 0; i < arr.length; i++) {
@@ -16,6 +22,11 @@ const sum = function (arr) {
 };
 
 // This function accepts an array called arr
+/*
+ * The solution branch uses arr.reduce((total, current)=> total * current)
+ * this is a recursive function where total will hold the total result of multiplications
+ * at each element of the array, current will hold the value of the current value
+ */
 const multiply = function (arr) {
 	let result = 1;
 	for (let i = 0; i < arr.length; i++) {
